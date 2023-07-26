@@ -1,0 +1,227 @@
+/*link de importação de fontes online*/
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+*{margin: 0; padding: 0;}
+
+/* o asterisco é um seletor universal, removo tds as margens e preenchimentos da pag, margin é usado p. definir margem, padding usado p definir preenchimento, aside é usado para anúncios*/
+
+body{
+	background-color: #f0f0f0;
+}
+
+header, img{
+	width: 100%;
+	height: 380px;
+}
+
+nav{
+	width: 100%;
+	height: 20px;
+	background-color:#A8886D;
+	text-align: center;
+	padding: 20px;
+}
+
+article{ 
+	width:100%;
+	background-color: #ddd;
+	padding: 20px;
+	/*preenchimento interno usa o padding*/
+	box-sizing: border-box;
+}
+
+a{
+	font: 1.5rem alata, arial, sans-serif;
+	font-weight: 500; /*bold*/
+	text-decoration: none;
+}
+
+.menu:link, .menu:visited{
+	color: #7C0000;
+	margin: 15px;
+}
+
+.menu:hover, .menu:active{
+	color: #f0f0f0; 
+}
+/*hover:quando passa o mouse sobre o link, rem é como se fosse uma porcentagem, a letra irá se adptar a qualquer dispositivo, priorizar o uso do rem ao invés de px*/
+h1{
+	font:2rem alata, arial, sans-serif;
+	color: #3E2723;
+	text-align: center; 
+	margin-bottom: 15px;
+	margin: 5px 10px 20px 30px;	
+	/*valores em sentido horário - top right bottom left*/
+}
+
+p{
+	font: 1rem alata, arial, sans-serif;
+	color: #777;
+	text-align: justify;
+	/*text-indent: 20px; usado para dar tab na primeira linha do paragrafo*/
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+section{	
+}
+
+#pag-cafes{ 
+	background-color: #A8886D;
+	padding: 50px;
+}
+
+#pag-cafes h2, #pag-cafes p{
+	color: #fff
+	margin-bottom: 15px;
+}
+
+h2{
+	font:2rem alata, arial, sans-serif;
+	color: #3E2723;
+	text-align: left;
+	margin-bottom: 15px;	
+}
+
+ul{
+	list-style-type: circle;
+	list-style-position: inside;
+	margin-left: 40px;
+}
+
+li{
+	font: 1rem alata, arial, sans-serif;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+#pag-bolosedoces{
+	padding: 50px;
+}
+
+#container{
+	display: flex;
+}
+
+.card{
+	background-color:#fff; 
+	width: 25%;
+	margin: 20px;
+	border-radius: 10px;/*arredondamento da borda da caixa*/
+	box-shadow: 10px 10px 10px #ccc;
+	transition: 0.5s;
+}
+
+.card:hover{
+	box-shadow: 12px 12px 7px #aaa;
+	transition: 0.5s;
+}
+
+.card img{
+	border-radius:10px 10px 0 0; 
+}
+
+.texto-card{
+	padding: 10px;
+}
+
+h3{ font: 2rem alata, sans-serif;
+	color: #3E2723;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#pag-cafesespeciais{
+	background-color: #fff;
+	padding: 30px;
+}
+
+#container-cafesespeciais{
+	display: flex;
+}
+
+#texto-cafesespeciais p{
+	margin-right: 30px;
+}
+
+#contatos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.img-contatos{
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+}
+
+video{
+	width: 400px;
+}
+
+footer{
+	background-color: #212121;
+	padding: 5px;
+}
+
+footer p, footer a{
+	text-align: center;
+	color: #fff;
+}
+
+/*AGENDAMENTOS */
+
+#pag-agendamentos p {
+	text-align: center;
+}
+
+form {
+	width: 500px;
+	background-color: #fff;
+	margin:0 auto; /*com a margem zero o objeto não se move, o auto é pra ter certeza*/
+	padding: 30px;
+	margin-bottom: 20px; 
+	border-radius:10px;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+input, select, fieldset, textarea{
+	font:1rem alata, arial, sans-serif;
+	color:#777; 
+	width:100%;
+	padding: 10px;
+	box-sizing:border-box;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+label, legend{
+	font:1rem alata, arial, sans-serif;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	width:20px ;
+	margin-left:20px;
+}
+
+#container-dhl, #botoes{
+	display: flex;
+
+}
+
+.item-dhl{
+	margin-right: 10px;
+}
+
+input[type="submit"], input[type="reset"]{
+	background-color: #8BC34A;
+	color: #fff;
+	border: none;
+	margin: 20px 40px;
+}
+
+input[type="reset"]{
+	background-color: #F47E7E;
+}
