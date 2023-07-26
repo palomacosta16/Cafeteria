@@ -1,2 +1,2 @@
 # Cafeteria
-Site para estudo 
+Desenvolvimento web/ HTML/CSS
