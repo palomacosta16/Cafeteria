@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Cafeína Cafeteria</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="CAFETERIA" />
+		<meta name="description" content="cafe e bolos em Brasília" />
+		<meta name="keywords" content="cafeina cafeteria,cafeteria,cafeina,cafeteria perto de mim,café,cafeteria em brasília, café em brasília,doceteria,torta e bolo,doceteria" />
+		
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<header>
+			<img src="img/banner.png"  alt="imagem com pessoas sentadas no ambiente da cafeteria, conversando e comendo" />
+		</header>
+
+			<nav> 
+				<a class="menu" href="#">HOME</a> 
+				<a class="menu" href="#pag-cafes">CAFÉS</a> 
+				<a class="menu" href="#pag-bolosedoces">BOLOS</a> 
+				<a class="menu" href="#pag-cafesespeciais">CAFÉS ESPECIAIS</a> 
+				<a class="menu" href="reservas.html">RESERVAS</a> 
+			</nav>
+		<section id="pag-agendamentos"> 
+				<h1>CAFEÍNA CAFETERIA</h1>	
+			
+				<h1>Reservas</h1>
+			
+				<p>Faça sua reserva aqui</p>
+
+			<form name="" method="" action="">
+				<label for="nome">Nome completo</label> 
+				<input id= "nome" type="text" name="nome_completo" placeholder="Digite seu nome completo" required autofocus /> 
+
+				<label for="email">E-mail</label> 
+				<input id="email" type="email" name="email"  placeholder="usuario@gmail.com" />
+
+				<label for="senha">Senha</label>
+				<input id="senha" type="password" name="senha"  placeholder="somente números">
+
+				<label for="celular">Celular</label>
+				<input id= "celular" type="tel" name=" celular" placeholder="(99)9999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$">
+
+				<div id="container-dhl">
+					<div class="item-dhl">
+						<label for="data"> Data</label>
+						<input type="date" name="data" required>
+					</div>
+
+					<div class="item-dhl">
+						<label for=""> Hora</label>
+						<input type="time" name="data" required>
+					</div>
+
+					<div>
+						<label for="local"> Local</label>
+						<input type="" name="local" >
+					</div>
+
+				</div>
+
+				<!-- não tem haver com o site, feito pra aprender-->
+
+				<label for="unidade"> Unidade</label>
+				<select id="unidade" name="unidade">
+					<option value="">unidade</option>
+					<option value="taguatinga">Taguatinga Sul</option>
+					<option value="guara">Guará</option>
+					<option value="asanorte">Asa Norte</option>
+					<option value="aguasclaras">Águas Claras</option>
+				</select>
+
+				<!--<fieldset>
+					<legend>Gênero</legend>
+					<input id="masc" type="radio" name="genero" value="masc"> <label for="masc">Masculino</label><br/>
+					<input id="fem" type="radio" name="genero" value="fem"> <label for="fem">Feminino</label>
+			    </fieldset>
+
+			    <fieldset>
+			    	<legend>Atividades</legend>
+			    	<input id="musc" type="checkbox" name="atividade" value="musc"> <label>Musculação</label>
+			    	<input id="pila" type="checkbox" name="atividade" value="pila"> <label>Pilates</label>
+			    	<input id="yoga" type="checkbox" name="atividade" value="yoga"> <label>Yoga</label>
+			    	<input id="corr" type="checkbox" name="atividade" value="corr"> <label>Corrida</label><br/>
+			    </fieldset>!-->
+
+			    <label for="msg">Mensagem</label>
+			    <textarea name="msg" id = "msg" cols="70" rows="5"> </textarea>
+
+			    <div id="botoes"> 
+					<input type="submit" name="bnt-agendar" value="AGENDAR">
+					<input type="reset" name="bnt-cancelar" value="CANCELAR">
+				</div>
+			
+			</form>	
+		</section>
+		<footer> 
+			<p align="center">Desenvolvido por <a href="https://www.linkedin.com/in/paloma-santana-da-costa-psc/" target="_blank"> Paloma Costa</a> - 2022 </p>
+		</footer>
+	</body>
+</html>
+
+
+
+
+
